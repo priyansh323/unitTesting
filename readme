@@ -1,0 +1,67 @@
+                          -->    MAPUP ASSESSMENT   <--
+
+                
+
+Application File : test-assessment.js 
+Test File : test-assessment.test.js 
+Coverage Report : Coverage--> Icov-report -->  index.html
+
+
+-->Three CONVERSION methods are Enclosd in three Differernt ** Describe ** Method under which test cases of each method are written in total 17 test cases are there .
+
+--> In Fuel Efficiency to mpg flow in ElseIF{IF} part the conversion Formula is incorrect 
+               
+==== STEPS TO EXCEUTE TEST FILE ====
+* NPM should be install in the Machine ( npm init)
+* Install Jest in your machine ( npm install --save-dev jest )
+* File directory should be inside Project 
+* Use command to run test Cases ( npm run test)
+* for coverage report got the location specified above                             
+                             
+                             
+                             
+                             *** DETAILS WHAT EACH TEST CASE DO ***
+
+-- isValidFunction --> TO Check if fuelUnitConversion is a valid Function or Not.
+
+-- isIfOutputCorrect --> TO Check the code flow in "If" Statement  & output recieved from it is in valid JSON Format 
+                        or NOT plus the value recieved(i.e Unit) Matches the expected value.
+
+-- isElseIfOutputCorrect --> TO Check the code flow in "ElseIf" Statement & output recieved from it is in valid JSON Format 
+                             or NOT plus the value recieved(i.e Unit) Matches the expected value.
+
+-- isIfOutputCorrect --> TO Check if  Output Value(i.e Converted Value) is Correct/Expected or not. 
+
+-- isValidJson --> When called Checks the Object is in Valid Json Format & it's in Every Describe method
+
+******
+
+-- isValidFunction --> TO Check if currencyConversion is a valid Function or Not.
+
+-- isIfOutputCorrect  --> TO Check the code flow in "If" Statement  & output recieved from it is in valid JSON Format or NOT.
+
+-- isIfElseOutputCorrect --> TO Check the code flow in "Else IF" Statement  & output recieved from it is in valid JSON Format or NOT.
+
+-- isElseOutputCorrect --> TO Check the code flow in "Else" Statement  & output recieved from it is in valid JSON Format or NOT.
+
+-- isIfFormulaCorrect --> TO Check  If Currency Conversion Formula is Correct In "IF" Statement and converting the given values as Expected or Not.
+
+-- isElseIfFormulaCorrect --> TO Check  If Currency Conversion Formula is Correct In " ElseIF" Statement and converting the given values as Expected or Not.
+
+-- isElseFormulaCorrect --> TO Check  If Currency Conversion Formula is Correct In " Else" Statement and converting the given values as Expected or Not.
+
+****
+-- isValidFunction --> TO Check if convertToUSMpg is a valid Function or Not.
+
+-- isOutputValid -->TO Check if the convertToUSMpg function return Desired Format Output or not 
+
+-- isIfWorking --> TO Check if in convertToUSMpg function when the code flows in "if" Statement the code  is working as Expected & also when parameters passed are 
+                   [units  -> mpg  &  Country -> GBR] the recieved output is as Expected.
+
+-- mpgToMpgConversion --> TO Check if in convertToUSMpg function When the Parameters passed as [{ units --> mpg  &  Country --> INR}]  the code works as Expected and value recieved matches to Expected Value
+
+-- isElse_IfWorking --> TO Check if in convertToUSMpg function when the code flows in "Elseif"--->"If" Statement the code  is working as Expected & also when parameters passed are 
+[units  -> ukMpg  &  Country -> ENG] the recieved output is as Expected.
+
+-- isElseIf_ElseWorking -->  TO Check if in convertToUSMpg function when the code flows in "Elseif"--->"Else" Statement the code  is working as Expected & also when parameters passed are 
+                              [units  -> ukMpg  &  Country -> ENG] the recieved output is as Expected.

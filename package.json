@@ -1,0 +1,22 @@
+{
+  "name": "technical_round_assignment_test_engineer",
+  "version": "1.0.0",
+  "description": "Assessment",
+  "main": "test-assessment.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "MapUp",
+    "AssessMent"
+  ],
+  "author": "Priyanshu",
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "jest": "^29.4.3"
+  }
+}
